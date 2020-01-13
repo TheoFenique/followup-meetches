@@ -12,107 +12,119 @@
 
 <body>
     <section class="landing">
-        <div class="concept">
-            <img class="logo" src="./images/logo.png" alt="">
-            <h1>Partagez vos passions communes dès 50 ans !</h1>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis animi, modi dolores unde nemo
-                vero
-                perferendis omnis, aliquam tenetur voluptatibus rem deserunt non explicabo nulla quisquam deleniti.
-                Sapiente, soluta molestias!
-            </p>
-            <div class="login">
-                <a class="fb-login" href="">
-                    <img src="./images/facebook.png" alt="">
-                    <span>Se connecter avec Facebook</span>
-                </a>
-                <a class="phone-login" href="">
-                    <img src="./images/phone.png" alt="">
-                    <span>Se connecter avec son numéro</span>
-                </a>
-            </div>
-            <div class="features">
-                <div class="feature"><img src="./images/findfriends.png" alt="fonctionnalité">
-                    <h3>Des rencontres autour de vos passions</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                </div>
-                <div class="feature"><img src="./images/value.png" alt="fonctionnalité">
-                    <h3>Gratuit et sans engagement</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque sint rerum illo error assumenda
-                    </p>
-                </div>
-                <div class="feature"><img src="./images/secure.png" alt="fonctionnalité">
-                    <h3>100% de profils sécurisés et vos données protégées</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
+        <div class="landing__concept">
+            <img class="landing__logo" src="./images/logo.png" alt="">
+            <div class="landing__container">
+                <h1>Partagez vos passions<br /> communes dès 50 ans !</h1>
+                <p>
+                    Venez partager votre passion avec d’autres passionnés proches de chez vous.
+                    Quoi de plus agréable que de partager sa passion avec un autre passionné ?
+                </p>
+                <div class="landing__login">
+                    <a class="register" href="">Inscription</a>
+                    <a class="login" href="">Connexion</a>
                 </div>
             </div>
         </div>
-        <div class="slider">
+        <div class="landing__slider">
             <img src="./images/mountaineer.png" alt="">
         </div>
     </section>
 
     <section class="howitworks">
         <h2>Comment ça marche ?</h2>
-        <p>In libero nulla, lobortis non hendrerit et, dictum quis ante. Proin bibendum ex at tristique scelerisque.
+        <p class="howitworks__desc">In libero nulla, lobortis non hendrerit et, dictum quis ante. Proin bibendum ex at
+            tristique
+            scelerisque.
             Curabitur quam metus, blandit non nisi lacinia, sodales lacinia urna. Pellentesque vulputate, diam in
             tincidunt aliquet, elit urna viverra ante, et eleifend purus ligula sollicitudin ex. Duis nibh ipsum,
             vestibulum vehicula facilisis.
         </p>
-        <div class="principles">
-            <button class="principle share">
-                <h4>Partager</h4>
-            </button>
-            <button class="principle live active">
-                <h4>Vivre</h4>
-            </button>
-            <button class="principle create">
-                <h4>Créer</h4>
-            </button>
+        <div class="howitworks__features">
+            <div class="howitworks__feature"><img src="./images/findfriends.png" alt="fonctionnalité">
+                <h3>Des rencontres autour de vos passions</h3>
+                <p>Grâce à un algorithme de matching</p>
+            </div>
+            <div class="howitworks__feature"><img src="./images/value.png" alt="fonctionnalité">
+                <h3>Gratuit et sans engagement</h3>
+                <p>Les recontres sont totalement gratuites</p>
+            </div>
+            <div class="howitworks__feature"><img src="./images/secure.png" alt="fonctionnalité">
+                <h3>100% de profils sécurisés et vos données protégées</h3>
+                <p>Nous vous garantissons une qualité des profils sur le site</p>
+            </div>
         </div>
-        <div class="slider">
-            <img src="./images/friends.png" alt="">
-            <p>In libero nulla, lobortis non hendrerit et, dictum quis ante. Proin bibendum ex at tristique scelerisque.
-                Curabitur quam metus, blandit non nisi lacinia, sodales lacinia urna. Pellentesque vulputate, diam in
-                tincidunt aliquet, elit urna viverra ante, et eleifend purus ligula sollicitudin ex. Duis nibh ipsum,
-                vestibulum vehicula facilisis.</p>
+        <a href="" class="howitworks__btn--register register">Je m'inscris gratuitement</a>
+        <div class="howitworks__container">
+
+            <div class="howitworks__slider">
+                <img src="./images/hiking.jpg" alt="">
+                <img class="active" src="./images/bike.jpg" alt="">
+                <img src="./images/cooking.jpeg" alt="">
+            </div>
+            <div class="howitworks__principles">
+                <div class="howitworks__btns">
+                    <button class="principle share">
+                        <h4>Partager</h4>
+                    </button>
+                    <button class="principle live active">
+                        <h4>Vivre</h4>
+                    </button>
+                    <button class="principle create">
+                        <h4>Créer</h4>
+                    </button>
+                </div>
+                <div class="howitworks__text">
+                    <p class="principle text">
+                        Lorem ipsum dolor amet vinyl gastropub bespoke aliqua aliquip crucifix art party master cleanse.
+                        Aesthetic cronut chicharrones craft beer chartreuse, biodiesel franzen squid meggings four loko
+                        velit organic blue bottle cupidatat laboris. Af single-origin coffee four loko scenester put a
+                        bird on it bespoke pug. Duis veniam salvia blue bottle cornhole franzen poke coloring book
+                        try-hard normcore 8-bit messenger bag esse ut irony. Poke church-key vegan biodiesel vape.
+                        Celiac disrupt chicharrones, vegan authentic slow-carb tumeric helvetica.
+                    </p>
+                    <p class="principle text active">
+                        Snackwave raclette flexitarian, readymade lomo neutra tilde. Mumblecore chambray irure banjo
+                        copper mug semiotics. YOLO intelligentsia duis marfa iPhone elit commodo kombucha distillery
+                        chia. Tilde flannel reprehenderit bespoke, live-edge quinoa messenger bag lorem celiac sed enim.
+                        Kickstarter messenger bag art party pabst veniam chia laboris, cardigan green juice next level 3
+                        wolf moon kombucha wayfarers vaporware knausgaard.
+                    </p>
+                    <p class="principle text">
+                        Celiac ennui ut, synth duis waistcoat ethical locavore. Man braid incididunt excepteur
+                        chartreuse banh mi, blog biodiesel normcore ugh single-origin coffee. Tattooed do chillwave
+                        fugiat adaptogen portland farm-to-table direct trade ut sartorial exercitation fanny pack.
+                        Proident tilde fugiat, master cleanse ut hexagon dolore etsy subway tile fanny pack semiotics
+                        cardigan minim.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="customers">
-        <span>Lorem ipsum</span>
-        <h2>Nos utilisateurs</h2>
+        <span>Nos avis</span>
+        <h2>Jane, 56 ans</h2>
         <img class="quote" src="./images/quote.png">
-        <p>In libero nulla, lobortis non hendrerit et, dictum quis ante. Proin bibendum ex at tristique scelerisque.
-            Curabitur quam metus, blandit non nisi lacinia, sodales lacinia urna. Pellentesque vulputate, diam in
-            tincidunt aliquet, elit urna viverra ante, et eleifend purus ligula sollicitudin ex. Duis nibh ipsum,
-            vestibulum vehicula facilisis.
+        <p>Je suis ravie de mon utilisation. J'ai recontré un tas de profils différents. Je recommande.
         </p>
     </section>
 
     <section class="blog">
         <h2>Notre blog</h2>
-        <p>In libero nulla, lobortis non hendrerit et, dictum quis ante. Proin bibendum ex at tristique scelerisque.
-            Curabitur quam metus, blandit non nisi lacinia, sodales lacinia urna. Pellentesque vulputate, diam in
-            tincidunt aliquet, elit urna viverra ante, et eleifend purus ligula sollicitudin ex. Duis nibh ipsum,
-            vestibulum vehicula facilisis.</p>
+        <p>Retrouvez différentes informations sur la vie après 50 ans grâce à nos différentes thématiques.</p>
         <a href="#" class="accessblog">
             <img src="./images/arrow.svg" alt="notre blog">
             Accéder au blog
         </a>
 
-        <div class="post-container">
-            <div class="post-list">
+        <div class="posts__container">
+            <div class="posts__list">
                 <div class="post">
-                    <div class="post-container-img">
+                    <div class="post__img">
                         <img src="./images/cooking.jpeg" alt="">
                     </div>
-                    <div class="post-container-text">
+                    <div class="post__text">
                         <small>#Nutrition</small>
                         <h5>Lorem ipsum dolor sit amet consectur
                             adipiscing elit sed eu blandit</h5>
@@ -122,10 +134,10 @@
                     </div>
                 </div>
                 <div class="post">
-                    <div class="post-container-img">
+                    <div class="post__img">
                         <img src="./images/painting.jpeg" alt="">
                     </div>
-                    <div class="post-container-text">
+                    <div class="post__text">
                         <small>#Nutrition</small>
                         <h5>Lorem ipsum dolor sit amet consectur
                             adipiscing elit sed eu blandit</h5>
@@ -135,10 +147,10 @@
                     </div>
                 </div>
                 <div class="post">
-                    <div class="post-container-img">
+                    <div class="post__img">
                         <img src="./images/yoga.jpg" alt="">
                     </div>
-                    <div class="post-container-text">
+                    <div class="post__text">
                         <small>#Nutrition</small>
                         <h5>Lorem ipsum dolor sit amet consectur
                             adipiscing elit sed eu blandit</h5>
@@ -148,10 +160,10 @@
                     </div>
                 </div>
                 <div class="post">
-                    <div class="post-container-img">
+                    <div class="post__img">
                         <img src="./images/tenis.jpg" alt="">
                     </div>
-                    <div class="post-container-text">
+                    <div class="post__text">
                         <small>#Nutrition</small>
                         <h5>Lorem ipsum dolor sit amet consectur
                             adipiscing elit sed eu blandit</h5>
@@ -161,10 +173,10 @@
                     </div>
                 </div>
                 <div class="post">
-                    <div class="post-container-img">
+                    <div class="post__img">
                         <img src="./images/bike.jpg" alt="">
                     </div>
-                    <div class="post-container-text">
+                    <div class="post__text">
                         <small>#Nutrition</small>
                         <h5>Lorem ipsum dolor sit amet consectur
                             adipiscing elit sed eu blandit</h5>
@@ -179,26 +191,22 @@
     </section>
 
     <section class="about">
-        <div class="background-red"></div>
+        <div class="about__background-red"></div>
         <h2>À propos de Meetches</h2>
-        <p class="about-desc">In libero nulla, lobortis non hendrerit et, dictum quis ante. Proin bibendum ex at
-            tristique scelerisque.
-            Curabitur quam metus, blandit non nisi lacinia, sodales lacinia urna. Pellentesque vulputate, diam in
-            tincidunt aliquet, elit urna viverra ante, et eleifend purus ligula sollicitudin ex. Duis nibh ipsum,
-            vestibulum vehicula facilisis.
+        <p class="about__desc">A travers cette vidéo, découvrez quelles sont les valeurs de meetches
         </p>
-        <div class="about-container-youtube">
+        <div class="about__container-youtube">
             <iframe width="1280" height="720" src="https://www.youtube.com/embed/hHW1oY26kxQ" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
         </div>
-        <div class="newsletter-container">
+        <div class="about__newsletter">
             <h3>S'inscrire à la newsletter</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu blandit eros. Praesent ullamcorper neque
                 eu dui sodales suscipit. Maecenas faucibus tincidunt diam. Nam at euismod diam.</p>
             <input type="text" name="newsletter" id="newsletter" placeholder="jacquesàdit@jeminscris.fr">
         </div>
-        <div class="site-desc">
+        <div class="about__site">
             <div>
                 <p class="bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a viverra velit.
                 </p>
@@ -242,8 +250,20 @@
         </div>
     </section>
     <footer>
-        <img src="" alt="">
+        <div class="footer__links">
+            <a href="">Aide</a>
+            <a href="">Pratique</a>
+            <a href="">L'entreprise</a>
+            <a href="">Légal</a>
+            <a href="">Newsletter</a>
+        </div>
+        <div class="footer__socials">
+            <a href=""><img src="./images/insta-logo.png" alt=""></a>
+            <a href=""><img src="./images/twitter-logo.png" alt=""></a>
+            <a href=""><img src="./images/facebook-logo.png" alt=""></a>
+        </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>
