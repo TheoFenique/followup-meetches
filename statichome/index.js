@@ -1,4 +1,4 @@
-const hiwImages = [...document.querySelectorAll(".howitworks-container .slider img")]
+const hiwImages = [...document.querySelectorAll(".howitworks__slider img")]
 const hiwButton = [...document.querySelectorAll("button.principle")]
 const hiwText = [...document.querySelectorAll("p.principle")]
 const hiwContent = {
